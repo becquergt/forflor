@@ -1,0 +1,26 @@
+#titulo{
+    color:seagreen;
+}
+h1 {
+    color: white;
+}
+h1:hover{
+    color: red;
+}
+ul {
+    color: white;
+}
+ul:hover {
+    color: turquoise;
+    
+}
+h3{
+    color: white;
+}
+h3:hover{
+    color: red;
+}
+h3::before {
+content: "💖";
+}
+
