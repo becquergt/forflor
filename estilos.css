@@ -64,6 +64,20 @@
      padding: 6px;
      
   }
+  .email-image {
+    width: 132px;
+    height: 132px;
+    border-radius: 50%;
+    background-color: var(--text-input-field);
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    margin-bottom: 24px;
+  }
+  .email-image img {
+    width: 80px;
+    
+  }
   .primary-button{
       margin-top: 10px;
       border-radius: 8px;
@@ -74,6 +88,13 @@
       color: white;
       height: 30px;
       width: 100%;
+  }
+  .resend{
+      margin-top: 10px;
+  }
+  .resend a {
+    color: grey;
+    text-decoration: none;
   }
   @media (max-width: 640px){
       .logo {
